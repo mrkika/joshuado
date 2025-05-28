@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Joshua Idogun - Professional Footballer</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <!-- AOS CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+    <link rel="icon" href="favicon.png" type="image/png" />
+
+</head>
+
+<body>
+    <!-- Hero Section -->
+    <header class="hero">
+        <video autoplay muted loop playsinline class="hero-video">
+            <source src="videos/video.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+        </video>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1>Joshua Idogun</h1>
+            <p>Speed. Skill. Spirit.</p>
+            <a href="#about" class="cta-button">Explore My Journey</a>
+        </div>
+    </header>
+
+    <section id="about" class="about-section">
+        <div class="container about-container">
+            <div class="about-image">
+                <img src="images/player-photo2.jpg" alt="Joshua Idogun" />
+            </div>
+            <div class="about-text">
+                <h2>Meet Joshua Idogun</h2>
+                <p>
+                    Joshua Idogun is a world-class footballer known for his agility, precision, and tactical intelligence. Born
+                    with a passion for the sport, he has risen through the ranks to become one of Nigeria’s most inspiring
+                    athletes.
+                </p>
+                <p>
+                    He’s played across continents — with clubs like <strong>Green Rangers FC</strong> in Nigeria and
+                    <strong>Fujaira FC</strong> in the UAE — leaving a legacy of skill and leadership wherever he steps on
+                    the field.
+                </p>
+                <p>
+                    Whether on the national stage or the international arena, John has consistently proven to be a
+                    game-changer and a role model to aspiring footballers.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="career-highway">
+        <h2 class="section-title">Career Timeline</h2>
+        <div class="timeline">
+            <div class="timeline-item left" data-aos="fade-right">
+                <div class="content">
+                    <img src="images/green-rangers.png" alt="Green Rangers FC" class="club-logo">
+                    <h3>Green Rangers FC</h3>
+                    <p>2014 - 2016</p>
+                    <p>Debuted in the Nigerian Pro League. Awarded Young Player of the Year.</p>
+                </div>
+            </div>
+            <div class="timeline-item right" data-aos="fade-left">
+                <div class="content">
+                    <img src="images/fujairah.png" alt="Fujairah FC" class="club-logo">
+                    <h3>Fujairah FC, UAE</h3>
+                    <p>2017 - 2019</p>
+                    <p>Signed internationally. Became known as a midfield powerhouse.</p>
+                </div>
+            </div>
+            <div class="timeline-item left" data-aos="fade-right">
+                <div class="content">
+                    <img src="images/nigeria.png" alt="National Team" class="club-logo">
+                    <h3>National Team Debut</h3>
+                    <p>2018</p>
+                    <p>First cap in international friendly. National honour earned.</p>
+                </div>
+            </div>
+            <div class="timeline-item right" data-aos="fade-left">
+                <div class="content">
+                    <img src="images/championship.png" alt="Championship" class="club-logo">
+                    <h3>Continental Championship Finalist</h3>
+                    <p>2020</p>
+                    <p>Helped team to the finals. Played pivotal role in midfield.</p>
+                </div>
+            </div>
+            <div class="timeline-item left" data-aos="fade-up-right">
+                <div class="content">
+                    <img src="images/bendel.png" alt="Legends FC" class="club-logo">
+                    <h3>Legends FC</h3>
+                    <p>2021 - Present</p>
+                    <p>Veteran leadership. Mentored youth squad and captained the side.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section class="achievements-section">
+        <h2 class="section-title">Achievements</h2>
+        <div class="achievements-grid">
+            <div class="achievement-card" data-aos="zoom-in">
+                <img src="images/trophy.png" alt="Trophy" class="achievement-icon">
+                <h3>League Champion</h3>
+                <p>Led team to win the national league in 2019.</p>
+            </div>
+            <div class="achievement-card" data-aos="zoom-in" data-aos-delay="100">
+                <img src="images/medal.png" alt="Medal" class="achievement-icon">
+                <h3>Best Midfielder</h3>
+                <p>Awarded top midfielder in UAE Pro League 2018.</p>
+            </div>
+            <div class="achievement-card" data-aos="zoom-in" data-aos-delay="200">
+                <img src="images/cup.png" alt="Cup" class="achievement-icon">
+                <h3>Continental Finalist</h3>
+                <p>Helped national team to reach the 2020 continental final.</p>
+            </div>
+            <div class="achievement-card" data-aos="zoom-in" data-aos-delay="300">
+                <img src="images/star.png" alt="Star" class="achievement-icon">
+                <h3>Player of the Year</h3>
+                <p>Voted club MVP in 2022 season for performance & leadership.</p>
+            </div>
+        </div>
+    </section>
+
+    
+    <section class="ratings-section">
+        <h2 class="section-title">Player Ratings</h2>
+        <div class="chart-container" data-aos="fade-up">
+            <canvas id="ratingChart" width="400" height="400"></canvas>
+        </div>
+    </section>
+
+
+    <section class="gallery-section">
+        <h2 class="section-title">Gallery</h2>
+        <div class="gallery-grid">
+            <div class="gallery-item" data-aos="fade-up">
+                <img src="images/gallery1.jpg" alt="Training session">
+                <div class="excerpt">
+                    <p>Intense training session with the team preparing for the national league.</p>
+                </div>
+            </div>
+            <div class="gallery-item" data-aos="fade-up" data-aos-delay="100">
+                <img src="images/gallery2.jpg" alt="Match action">
+                <div class="excerpt">
+                    <p>Crucial match moment during the continental championship final.</p>
+                </div>
+            </div>
+            <div class="gallery-item" data-aos="fade-up" data-aos-delay="200">
+                <img src="images/gallery3.jpg" alt="Award ceremony">
+                <div class="excerpt">
+                    <p>Receiving the Player of the Year trophy at the club awards night.</p>
+                </div>
+            </div>
+            <div class="gallery-item" data-aos="fade-up" data-aos-delay="300">
+                <img src="images/gallery4.jpg" alt="Team huddle">
+                <div class="excerpt">
+                    <p>Team huddle before an important international fixture.</p>
+                </div>
+            </div>
+            <div class="gallery-item" data-aos="fade-up" data-aos-delay="400">
+                <img src="images/gallery5.jpg" alt="Fan interaction">
+                <div class="excerpt">
+                    <p>Engaging with passionate fans after a thrilling victory.</p>
+                </div>
+            </div>
+            <div class="gallery-item" data-aos="fade-up" data-aos-delay="300">
+                <img src="images/gallery6.jpg" alt="Team huddle">
+                <div class="excerpt">
+                    <p>Team huddle before an important international fixture.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="social-section" data-aos="fade-up">
+        <h3>Follow the Journey</h3>
+        <div class="social-buttons">
+            <a href="https://instagram.com/yourplayerhandle" target="_blank" class="social instagram" title="Instagram">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://twitter.com/yourplayerhandle" target="_blank" class="social twitter" title="Twitter/X">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a href="https://facebook.com/yourplayerhandle" target="_blank" class="social facebook" title="Facebook">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="mailto:contact@yourplayermail.com" class="social email" title="Email">
+                <i class="fas fa-envelope"></i>
+            </a>
+        </div>
+    </section>
+      
+
+
+    <section class="contact-section" id="contact">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact-container" data-aos="fade-up">
+            <p>Interested in signing, collaborating, or learning more? Reach out directly via WhatsApp!</p>
+            <a href="https://wa.me/2348012345678" target="_blank" class="whatsapp-button">
+                <img src="images/whatsapp.webp" alt="WhatsApp" />
+                Chat on WhatsApp
+            </a>
+        </div>
+    </section>
+      
+      
+    <a href="https://wa.me/2348012345678" class="floating-whatsapp" target="_blank" title="Chat on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+      
+      
+    <footer class="site-footer">
+        <div class="footer-container">
+            <div class="footer-brand">
+                <h3>⚽ Joshua Idogun</h3>
+                <p>Inspiring the next generation on and off the pitch.</p>
+            </div>
+    
+            <div class="footer-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#career">Career</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#contact">Contact</a>
+            </div>
+    
+            <div class="footer-credit">
+                <p>&copy; <span id="year"></span> Joshua Idogun. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <button id="scrollToTopBtn" title="Go to top">
+        <i class="fas fa-chevron-up"></i>
+        </button>
+      
+
+    <script src="js/script.js"></script>
+
+    <!-- AOS JS -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true
+        });
+    </script>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+    const ctx = document.getElementById('ratingChart').getContext('2d');
+    const ratingChart = new Chart(ctx, {
+        type: 'radar',
+        data: {
+            labels: ['Passing', 'Dribbling', 'Stamina', 'Speed', 'Vision', 'Shooting'],
+            datasets: [{
+                label: 'Overall Skills',
+                data: [85, 90, 88, 80, 87, 83],
+                backgroundColor: 'rgba(0, 230, 118, 0.2)',
+                borderColor: '#00e676',
+                pointBackgroundColor: '#00e676',
+                pointBorderColor: '#fff'
+            }]
+        },
+        options: {
+            responsive: true,
+            scales: {
+                r: {
+                    angleLines: { color: '#00e676' },
+                    grid: { color: '#00ffae30' },
+                    pointLabels: { color: '#fff', font: { size: 14 } },
+                    suggestedMin: 50,
+                    suggestedMax: 100
+                }
+            },
+            plugins: {
+                legend: { labels: { color: '#fff' } }
+            }
+        }
+    });
+</script>
+
+<script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
+
+<script>
+    const scrollBtn = document.getElementById("scrollToTopBtn");
+
+    window.onscroll = () => {
+        if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+            scrollBtn.style.display = "block";
+        } else {
+            scrollBtn.style.display = "none";
+        }
+    };
+
+    scrollBtn.onclick = () => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    };
+</script>
+  
+  
+
+
+</body>
+</html>
